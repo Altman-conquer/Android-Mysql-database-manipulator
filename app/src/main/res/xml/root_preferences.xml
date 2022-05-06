@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/first_header">
+
+        <EditTextPreference
+            app:key="DatabaseUrl"
+            app:title="@string/databaseUrl"
+            app:defaultValue="@string/defaultDatabaseUrl"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="DatabaseUserName"
+            app:title="@string/databaseUser"
+            app:defaultValue="@string/defaultDatabaseUser"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="DatabasePassword"
+            app:title="@string/databasePassword"
+            app:defaultValue="@string/defaultDatabasePassword"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="Filter"
+            app:title="@string/databaseFilter"
+            app:defaultValue="@string/defaultFilter"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="TableName"
+            app:defaultValue="@string/defaultTableName"
+            app:title="@string/databaseTableName"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

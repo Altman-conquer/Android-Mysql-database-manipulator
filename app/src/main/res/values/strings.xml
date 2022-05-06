@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DataBase Manipulator</string>
+    <string name="insert">Insert</string>
+    <string name="query">Query</string>
+    <string name="others">Others</string>
+    <string name="ok">Go to setting</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="first_header">Database Setting</string>
+    <string name="databaseUrl">Database URL</string>
+    <string name="databaseUser">Database User</string>
+    <string name="databasePassword">Database Password</string>
+
+    <string name="defaultDatabaseUrl">jdbc:mysql://114.116.196.63:3306/report</string>
+    <string name="defaultDatabaseUser">user_1</string>
+    <string name="defaultDatabasePassword">aA877783019</string>
+    <string name="settings">Settings</string>
+    <string name="InputHint">Enter the value here</string>
+    <string name="databaseFilter">Filter</string>
+    <string name="databaseTableName">Table Name</string>
+    <string name="condition_example">ex: ID=\'1\' and Name=\'2\'</string>
+    <string name="condition">Condition</string>
+    <string name="query_custom_example">ex: select * from Class_10;</string>
+    <string name="defaultFilter">*</string>
+    <string name="defaultTableName">test</string>
+
+</resources>
